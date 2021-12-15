@@ -14,6 +14,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <ChakraLink as={Link} to="/an-error">
           Error
         </ChakraLink>
+        <ChakraLink as={Link} to="/a-route">
+          Real route
+        </ChakraLink>
       </HStack>
 
       <Box as="main" p={4}>
